@@ -1,11 +1,12 @@
 import { getIcon as _getIcon } from '@iconify/vue'
 import type { PropType } from 'vue'
 import { computed, defineComponent, h } from 'vue'
+import { useNuxtApp } from 'nuxt/app'
 import type { NuxtIconRuntimeOptions } from '../../types'
 import { NuxtIconCss } from './css'
 import { NuxtIconSvg } from './svg'
 import { useResolvedName } from './shared'
-import { useAppConfig, useNuxtApp } from '#imports'
+import { useAppConfig } from '#imports'
 
 export default defineComponent({
   name: 'NuxtIcon',
