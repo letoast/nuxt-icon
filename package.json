@@ -1,11 +1,13 @@
 {
   "name": "@letoast/nuxt-icon",
   "packageManager": "pnpm@9.0.6",
-  "version": "1.0.0-beta.3",
+  "version": "1.0.0",
   "license": "MIT",
   "type": "module",
   "repository": "github:letoast/nuxt-modules",
-  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "types": "./dist/types.d.ts",
