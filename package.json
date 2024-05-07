@@ -5,6 +5,7 @@
   "license": "MIT",
   "type": "module",
   "repository": "github:letoast/nuxt-modules",
+  "private": false,
   "exports": {
     ".": {
       "types": "./dist/types.d.ts",
